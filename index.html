@@ -1,0 +1,311 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#f1eee8" />
+  <title>Casa Piel — Concepto editorial</title>
+  <meta name="description" content="Propuesta conceptual para la nueva experiencia digital de Casa Piel." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="grain" aria-hidden="true"></div>
+  <div class="progress" aria-hidden="true"><span></span></div>
+  <div class="cursor" aria-hidden="true"></div>
+
+  <div class="preloader" aria-hidden="true">
+    <div class="preloader__line"></div>
+    <img class="preloader__logo" src="assets/casapiel-logo.png" alt="">
+    <div class="preloader__meta">CARACAS · EST. 1999</div>
+  </div>
+
+  <header class="header" id="top">
+    <a class="wordmark" href="#top" aria-label="Casa Piel, inicio">
+      <img class="brandLogo" src="assets/casapiel-logo.png" alt="Casa Piel">
+    </a>
+    <div class="header__right">
+      <button class="lang" aria-label="Cambiar idioma"><span class="is-active">ES</span><span>EN</span></button>
+      <button class="menuBtn" aria-label="Abrir menú" aria-expanded="false">
+        <span>Menú</span><i></i><i></i>
+      </button>
+    </div>
+  </header>
+
+  <div class="menuOverlay" aria-hidden="true">
+    <div class="menuOverlay__bg"></div>
+    <div class="menuOverlay__top">CASA PIEL · LAS MERCEDES</div>
+    <nav class="menuOverlay__nav" aria-label="Navegación principal">
+      <a href="#manifesto"><span>01</span>Casa Piel</a>
+      <a href="#design"><span>02</span>Design</a>
+      <a href="#materials"><span>03</span>Materiales</a>
+      <a href="#inspiration"><span>04</span>Inspiración</a>
+      <a href="#showrooms"><span>05</span>Showrooms</a>
+      <a href="#contact"><span>06</span>Contacto</a>
+    </nav>
+    <div class="menuOverlay__foot">
+      <span>Instagram</span><span>Caracas, Venezuela</span><span>ES / EN</span>
+    </div>
+  </div>
+
+  <main>
+    <section class="hero heroCarousel" aria-label="Historias destacadas de Casa Piel">
+      <div class="heroCarousel__slides">
+
+        <article class="heroSlide heroSlide--charred is-active" data-slide="0" aria-hidden="false">
+          <div class="heroSlide__media" style="background-image:url('assets/wood-charred-02.jpg')"></div>
+          <div class="heroSlide__veil heroSlide__veil--dark"></div>
+          <div class="heroSlide__content">
+            <p class="heroSlide__kicker">CASA PIEL · LAS MERCEDES</p>
+            <h1>Diseño italiano.<br><em>Sensación de hogar.</em></h1>
+            <p class="heroSlide__caption">Una selección de piezas, materiales y formas creadas para habitar el tiempo.</p>
+            <a class="heroSlide__cta magnetic" href="#manifesto">Descubrir Casa Piel</a>
+          </div>
+        </article>
+
+        <article class="heroSlide heroSlide--leather" data-slide="1" aria-hidden="true">
+          <div class="heroSlide__media" style="background-image:url('assets/leather-cognac.jpg')"></div>
+          <div class="heroSlide__veil heroSlide__veil--leather"></div>
+          <div class="heroSlide__content">
+            <p class="heroSlide__kicker">PIEL · DESDE 2001</p>
+            <h1>La materia<br><em>también tiene memoria.</em></h1>
+            <p class="heroSlide__caption">Textura, oficio y una belleza que evoluciona con el uso y con los años.</p>
+            <a class="heroSlide__cta magnetic" href="#materials">Explorar materiales</a>
+          </div>
+        </article>
+
+        <article class="heroSlide heroSlide--object" data-slide="2" aria-hidden="true">
+          <div class="heroSlide__objectScene" aria-hidden="true">
+            <div class="heroSlide__halo"></div>
+            <svg viewBox="0 0 700 700">
+              <path d="M208 138c84-45 210-41 286 8 37 24 56 60 54 104l-9 170c-3 58-50 104-108 104H274c-61 0-108-48-109-109l-2-164c0-49 12-88 45-113z" fill="#a98268"/>
+              <path d="M202 351h340l-17 107c-7 43-44 75-87 75H285c-44 0-81-33-87-77z" fill="#785c4c"/>
+              <path d="M230 521l-30 105M500 521l25 105" stroke="#24211f" stroke-width="18" stroke-linecap="round"/>
+              <path d="M234 309c78 31 201 33 278-3" fill="none" stroke="#eaded3" stroke-opacity=".45" stroke-width="3"/>
+            </svg>
+          </div>
+          <div class="heroSlide__content heroSlide__content--ink">
+            <p class="heroSlide__kicker">CURADURÍA · DISEÑO · AUTORÍA</p>
+            <h1>Piezas con autor.<br><em>Marcas con historia.</em></h1>
+            <p class="heroSlide__caption">El objeto como expresión de proporción, material y cultura del diseño.</p>
+            <a class="heroSlide__cta heroSlide__cta--ink magnetic" href="#design">Explorar Design</a>
+          </div>
+        </article>
+
+        <article class="heroSlide heroSlide--geometry" data-slide="3" aria-hidden="true">
+          <div class="heroSlide__media" style="background-image:url('assets/wood-charred-03.jpg')"></div>
+          <div class="heroSlide__veil heroSlide__veil--geometry"></div>
+          <div class="heroSlide__content">
+            <p class="heroSlide__kicker">CASA PIEL · DESDE 1999</p>
+            <h1>El diseño<br><em>que permanece.</em></h1>
+            <p class="heroSlide__caption">Más que una tendencia: piezas pensadas para acompañar la historia de una casa.</p>
+            <a class="heroSlide__cta magnetic" href="#timeline">Conocer la historia</a>
+          </div>
+        </article>
+
+        <article class="heroSlide heroSlide--light" data-slide="4" aria-hidden="true">
+          <div class="heroSlide__media" style="background-image:url('assets/leather-avorio.jpg')"></div>
+          <div class="heroSlide__veil heroSlide__veil--light"></div>
+          <div class="heroSlide__content heroSlide__content--ink">
+            <p class="heroSlide__kicker">LAS MERCEDES · CARACAS</p>
+            <h1>Un espacio para mirar.<br><em>Un lugar para imaginar.</em></h1>
+            <p class="heroSlide__caption">Una experiencia pausada, táctil y personal para descubrir cómo quiere habitar.</p>
+            <a class="heroSlide__cta heroSlide__cta--ink magnetic" href="#showrooms">Visitar showrooms</a>
+          </div>
+        </article>
+
+      </div>
+
+      <button class="heroCarousel__arrow heroCarousel__arrow--prev" type="button" aria-label="Historia anterior">←</button>
+      <button class="heroCarousel__arrow heroCarousel__arrow--next" type="button" aria-label="Historia siguiente">→</button>
+
+      <div class="heroCarousel__pagination" aria-label="Seleccionar historia">
+        <button class="heroCarousel__dot is-active" type="button" data-go="0" aria-label="Ir a historia 1"><span></span></button>
+        <button class="heroCarousel__dot" type="button" data-go="1" aria-label="Ir a historia 2"><span></span></button>
+        <button class="heroCarousel__dot" type="button" data-go="2" aria-label="Ir a historia 3"><span></span></button>
+        <button class="heroCarousel__dot" type="button" data-go="3" aria-label="Ir a historia 4"><span></span></button>
+        <button class="heroCarousel__dot" type="button" data-go="4" aria-label="Ir a historia 5"><span></span></button>
+      </div>
+
+      <div class="heroCarousel__counter"><span id="heroCurrent">01</span><i></i><span>05</span></div>
+      <div class="scrollCue">SCROLL <span></span></div>
+    </section>
+
+    <section class="manifesto section" id="manifesto">
+      <div class="sectionNo">01 — MANIFIESTO</div>
+      <div class="manifesto__grid">
+        <div class="manifesto__title">
+          <p class="eyebrow reveal">Desde 1999</p>
+          <h2 class="splitTitle">
+            <span>El diseño</span>
+            <span class="serif">que permanece.</span>
+          </h2>
+        </div>
+        <div class="manifesto__body reveal">
+          <p class="lead">Casa Piel nació de una relación profunda con el mobiliario: conocerlo, elegirlo, vivirlo y entender por qué algunas piezas permanecen más allá de una tendencia.</p>
+          <p>Hoy esa experiencia encuentra una nueva expresión en Las Mercedes: mobiliario italiano de alta gama, pieles cuidadosamente seleccionadas y asesoría que acompaña cada elección desde el showroom hasta el hogar.</p>
+          <a href="#timeline" class="textLink">Nuestra historia <b>↘</b></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="quoteBand">
+      <div class="quoteBand__texture"></div>
+      <blockquote class="reveal">“No elegimos una pieza solamente porque sea bella. Debe sentirse tan bien como se ve.”</blockquote>
+      <span class="quoteBand__caption">CRITERIO CASA PIEL</span>
+    </section>
+
+    <section class="timeline section" id="timeline">
+      <div class="sectionNo">02 — HISTORIA</div>
+      <div class="timeline__layout">
+        <aside class="timeline__sticky">
+          <p class="eyebrow">Una historia en movimiento</p>
+          <div class="timeline__year" id="activeYear">1992</div>
+          <p class="timeline__note">Del primer encuentro con el mobiliario a una casa dedicada al diseño italiano.</p>
+        </aside>
+        <div class="timeline__entries">
+          <article class="timelineEntry is-active" data-year="1992">
+            <span>1992</span><h3>El primer vínculo.</h3><p>Ramy comienza su recorrido profesional en el mundo del mobiliario. Ese contacto inicial se convierte en una forma de mirar el producto desde adentro.</p>
+          </article>
+          <article class="timelineEntry" data-year="1999">
+            <span>1999</span><h3>Nace Casa Piel.</h3><p>La Yaguara abre sus puertas como una propuesta de mobiliario y decoración para el hogar, con 1.800 m² de exhibición en Caracas.</p>
+          </article>
+          <article class="timelineEntry" data-year="2001">
+            <span>2001</span><h3>El encuentro con la piel.</h3><p>Un viaje de Ramy y Vicky marca el inicio de una relación duradera con la piel como material protagonista: tacto, nobleza, oficio y permanencia.</p>
+          </article>
+          <article class="timelineEntry" data-year="2019">
+            <span>2019</span><h3>Una nueva visión.</h3><p>Surge la inquietud por crear una experiencia más sofisticada, dirigida a una nueva manera de habitar y de entender el mobiliario de alta gama.</p>
+          </article>
+          <article class="timelineEntry" data-year="2021">
+            <span>2021</span><h3>Las Mercedes.</h3><p>Casa Piel abre un nuevo capítulo centrado en mobiliario italiano, piezas en piel y una amplia posibilidad de personalización.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="design section" id="design">
+      <div class="sectionNo">03 — DESIGN</div>
+      <div class="design__head">
+        <p class="eyebrow reveal">Curaduría</p>
+        <h2 class="splitTitle"><span>Piezas con autor.</span><span class="serif">Marcas con historia.</span></h2>
+      </div>
+      <div class="design__stage reveal">
+        <div class="design__visual" id="designVisual">
+          <div class="orb orb--1"></div><div class="orb orb--2"></div>
+          <svg class="chairArt" viewBox="0 0 700 700" aria-hidden="true">
+            <path d="M208 138c84-45 210-41 286 8 37 24 56 60 54 104l-9 170c-3 58-50 104-108 104H274c-61 0-108-48-109-109l-2-164c0-49 12-88 45-113z" fill="#b18a6c"/>
+            <path d="M202 351h340l-17 107c-7 43-44 75-87 75H285c-44 0-81-33-87-77z" fill="#8a6955"/>
+            <path d="M230 521l-30 105M500 521l25 105" stroke="#24211f" stroke-width="18" stroke-linecap="round"/>
+            <path d="M234 309c78 31 201 33 278-3" fill="none" stroke="#d7c4b3" stroke-opacity=".42" stroke-width="3"/>
+          </svg>
+          <span class="design__visualLabel">OBJETO 01 / EDICIÓN</span>
+        </div>
+        <div class="design__copy">
+          <div class="design__counter">01 / 03</div>
+          <h3>El objeto como expresión cultural.</h3>
+          <p>La selección de Casa Piel reúne firmas y diseñadores que entienden el mobiliario más allá de su función: proporción, material, detalle y una manera de vivir el espacio.</p>
+          <div class="design__actions"><a href="#" class="textLink">Explorar marcas <b>↗</b></a><a href="#" class="textLink">Conocer diseñadores <b>↗</b></a></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="materials" id="materials">
+      <div class="materials__intro section">
+        <div class="sectionNo">04 — MATERIALES</div>
+        <div>
+          <p class="eyebrow reveal">Piel · Semi-piel · Acabados</p>
+          <h2 class="splitTitle"><span>La materia</span><span class="serif">también cuenta una historia.</span></h2>
+        </div>
+        <p class="materials__lead reveal">Desde 2001, la piel ocupa un lugar esencial en la identidad de Casa Piel. Cada acabado cambia con la luz, el uso y el tiempo.</p>
+      </div>
+      <div class="swatches" aria-label="Muestras conceptuales de piel">
+        <article class="swatch reveal"><img src="assets/leather-avorio.jpg" alt="Muestra de piel color avorio"><div><span>01</span><h4>Avorio</h4><p>Piel / acabado mate</p></div></article>
+        <article class="swatch reveal"><img src="assets/leather-cognac.jpg" alt="Muestra de piel color cognac"><div><span>02</span><h4>Cognac</h4><p>Piel / grano natural</p></div></article>
+        <article class="swatch reveal"><img src="assets/leather-cioccolato.jpg" alt="Muestra de piel color cioccolato"><div><span>03</span><h4>Cioccolato</h4><p>Piel / acabado cálido</p></div></article>
+        <article class="swatch reveal"><img src="assets/leather-grigio.jpg" alt="Muestra de piel color grigio"><div><span>04</span><h4>Grigio</h4><p>Piel / tono mineral</p></div></article>
+        <article class="swatch reveal"><img src="assets/leather-bordeaux.jpg" alt="Muestra de piel color bordeaux"><div><span>05</span><h4>Bordeaux</h4><p>Piel / tono profundo</p></div></article>
+        <article class="swatch reveal"><img src="assets/leather-nero.jpg" alt="Muestra de piel color nero"><div><span>06</span><h4>Nero</h4><p>Piel / grano fino</p></div></article>
+      </div>
+      <div class="materials__cta"><a href="#" class="outlineBtn magnetic">Explorar biblioteca de materiales <span>↗</span></a></div>
+    </section>
+
+    <section class="inspiration section" id="inspiration">
+      <div class="sectionNo">05 — INSPIRACIÓN</div>
+      <div class="inspiration__head">
+        <h2 class="splitTitle"><span>Espacios para mirar.</span><span class="serif">Ideas para habitar.</span></h2>
+        <p class="reveal">Una selección editorial de ambientes, texturas y formas que expanden el universo Casa Piel más allá del catálogo.</p>
+      </div>
+      <div class="editorialGrid">
+        <a class="editorialCard editorialCard--tall reveal" href="#">
+          <img src="assets/wood-charred-02.jpg" alt="Madera negra carbonizada con iluminación cálida">
+          <div class="editorialCard__shade"></div><div class="editorialCard__meta"><span>01 / MATERIALIDAD</span><h3>Negro, pero nunca plano.</h3><p>La textura como arquitectura.</p></div>
+        </a>
+        <a class="editorialCard reveal" href="#">
+          <img src="assets/wood-charred-01.jpg" alt="Detalle de madera carbonizada">
+          <div class="editorialCard__shade"></div><div class="editorialCard__meta"><span>02 / DETALLE</span><h3>La huella de la materia.</h3><p>Superficies que revelan su origen.</p></div>
+        </a>
+        <a class="editorialCard reveal" href="#">
+          <img src="assets/wood-charred-03.jpg" alt="Revestimiento negro geométrico">
+          <div class="editorialCard__shade"></div><div class="editorialCard__meta"><span>03 / FORMA</span><h3>Ritmo y profundidad.</h3><p>Geometría, sombra y silencio.</p></div>
+        </a>
+      </div>
+    </section>
+
+    <section class="films section" aria-label="Selección audiovisual">
+      <div class="sectionNo">06 — FILMS</div>
+      <div class="films__head">
+        <p class="eyebrow reveal">Después de la portada, el movimiento.</p>
+        <h2 class="splitTitle"><span>Historias breves.</span><span class="serif">Movimiento preciso.</span></h2>
+      </div>
+      <div class="filmRail">
+        <article class="filmCard reveal"><div class="filmCard__frame"><img src="assets/wood-charred-02.jpg" alt="Referencia visual de material negro"><button aria-label="Reproducir video">▶</button><span>00:18</span></div><p>El gesto de la materia</p></article>
+        <article class="filmCard reveal"><div class="filmCard__frame filmCard__frame--light"><img src="assets/leather-cognac.jpg" alt="Detalle de piel color cognac"><button aria-label="Reproducir video">▶</button><span>00:24</span></div><p>La piel y la luz</p></article>
+        <article class="filmCard reveal"><div class="filmCard__frame"><img src="assets/wood-charred-03.jpg" alt="Revestimiento oscuro"><button aria-label="Reproducir video">▶</button><span>00:16</span></div><p>Ritmos del espacio</p></article>
+      </div>
+    </section>
+
+    <section class="showrooms" id="showrooms">
+      <div class="showrooms__image"><img src="assets/wood-charred-02.jpg" alt="Referencia de interior oscuro y luz cálida"><div class="showrooms__wash"></div></div>
+      <div class="showrooms__content">
+        <div class="sectionNo">07 — SHOWROOMS</div>
+        <p class="eyebrow reveal">Caracas</p>
+        <h2 class="splitTitle"><span>Dos espacios.</span><span class="serif">Una misma historia.</span></h2>
+        <div class="showroomList reveal">
+          <a href="#"><span>01</span><div><h3>Las Mercedes</h3><p>Mobiliario italiano · alta gama · personalización</p></div><b>↗</b></a>
+          <a href="#"><span>02</span><div><h3>La Yaguara</h3><p>La sede que acompaña nuestra historia desde 1999</p></div><b>↗</b></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact section" id="contact">
+      <div class="sectionNo">08 — CONTACTO</div>
+      <div class="contact__grid">
+        <div>
+          <p class="eyebrow reveal">Una conversación, no un formulario.</p>
+          <h2 class="splitTitle"><span>Imaginemos</span><span class="serif">su próximo espacio.</span></h2>
+        </div>
+        <div class="contact__body reveal">
+          <p>Arquitectos, diseñadores, clientes y profesionales pueden conversar con nuestro equipo para conocer piezas, acabados, disponibilidad y posibilidades de personalización.</p>
+          <a class="bigLink magnetic" href="#">Hablar con Casa Piel <span>↗</span></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer__texture"></div>
+    <div class="footer__top">
+      <div class="wordmark wordmark--footer"><img class="brandLogo brandLogo--footer" src="assets/casapiel-logo.png" alt="Casa Piel"></div>
+      <p>Diseño italiano.<br><em>Sensación de hogar.</em></p>
+    </div>
+    <div class="footer__grid">
+      <div><span>NAVEGAR</span><a href="#manifesto">Casa Piel</a><a href="#design">Design</a><a href="#materials">Materiales</a><a href="#inspiration">Inspiración</a></div>
+      <div><span>VISITAR</span><a href="#showrooms">Las Mercedes</a><a href="#showrooms">La Yaguara</a><a href="#contact">Agendar asesoría</a></div>
+      <div><span>SOCIEDAD</span><a href="#">Arquitectos & Diseñadores</a><a href="#">Proyectos</a><a href="#">Prensa</a></div>
+      <div><span>SEGUIR</span><a href="#">Instagram</a><a href="#">Pinterest</a></div>
+    </div>
+    <div class="footer__bottom"><span>© 2026 Casa Piel</span><span>Concepto digital · prototipo</span><span>Caracas, Venezuela</span></div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
